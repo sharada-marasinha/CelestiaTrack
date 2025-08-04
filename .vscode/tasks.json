@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Flask Planet Tracker",
+			"type": "shell",
+			"command": "\"E:/edu/Skyfield app/.venv/Scripts/python.exe\"",
+			"args": [
+				"planet_tracker_flask/app.py"
+			],
+			"group": "build",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
